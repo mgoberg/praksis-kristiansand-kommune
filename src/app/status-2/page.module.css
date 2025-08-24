@@ -1,0 +1,194 @@
+.container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #004071, #007bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.header p {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.content {
+  margin-bottom: 2rem;
+}
+
+.progressOverview {
+  margin-bottom: 3rem;
+}
+
+.progressOverview h2 {
+  color: #004071;
+  margin-bottom: 1.5rem;
+}
+
+.progressBar {
+  background-color: #e0e0e0;
+  height: 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.progressBarFill {
+  background: linear-gradient(to right, #004071, #0066b3);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  transition: width 1s ease-in-out;
+}
+
+.accomplishments {
+  margin-bottom: 3rem;
+}
+
+.accomplishments h2 {
+  color: #004071;
+  margin-bottom: 1.5rem;
+}
+
+.accomplishmentsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.accomplishmentsList li {
+  display: flex;
+  margin-bottom: 1.5rem;
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.accomplishmentIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #ebf5ff;
+  border-radius: 50%;
+  margin-right: 1rem;
+  color: #004071;
+  font-size: 1.2rem;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.accomplishmentContent {
+  flex: 1;
+}
+
+.accomplishmentContent h3 {
+  color: #004071;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.accomplishmentContent p {
+  color: #555;
+  margin: 0;
+}
+
+.learnings {
+  margin-bottom: 3rem;
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.learnings h2 {
+  color: #004071;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.learnings > p {
+  margin-bottom: 1.5rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.keyInsights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.insightItem {
+  background-color: white;
+  padding: 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.insightItem h3 {
+  color: #004071;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.insightItem p {
+  color: #555;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.nextSteps {
+  background-color: #f0f7ff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.nextSteps h2 {
+  color: #004071;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.nextSteps p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.nextSteps ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.nextSteps li {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .keyInsights {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,88 @@
+import { redirect } from 'next/navigation';
+
+export default function OmOss() {
+  redirect('/');
+  return null;
+
+      <section className={styles.content}>
+        <h2>Vårt Team</h2>
+        <div className={styles.teamGrid}>
+          <div className={styles.teamMember}>
+            <div className={styles.memberAvatar}>👩‍🎓</div>
+            <h3>Gruppemedlem 1</h3>
+            <p>Informasjon om gruppemedlemmet og deres rolle i prosjektet</p>
+          </div>
+          <div className={styles.teamMember}>
+            <div className={styles.memberAvatar}>👨‍🎓</div>
+            <h3>Gruppemedlem 2</h3>
+            <p>Informasjon om gruppemedlemmet og deres rolle i prosjektet</p>
+          </div>
+          <div className={styles.teamMember}>
+            <div className={styles.memberAvatar}>👩‍🎓</div>
+            <h3>Gruppemedlem 3</h3>
+            <p>Informasjon om gruppemedlemmet og deres rolle i prosjektet</p>
+          </div>
+          <div className={styles.teamMember}>
+            <div className={styles.memberAvatar}>👨‍🎓</div>
+            <h3>Gruppemedlem 4</h3>
+            <p>Informasjon om gruppemedlemmet og deres rolle i prosjektet</p>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.projectInfo}>
+        <div className={styles.infoText}>
+          <h2>Om Prosjektet</h2>
+          <p>
+            Dette praksisprosjektet er et samarbeid mellom vår gruppe fra Universitetet i Agder og Kristiansand Kommune. 
+            Målet er å anvende våre teoretiske kunnskaper i praksis og skape verdi for kommunen og dens innbyggere.
+          </p>
+          <p>
+            Gjennom dette prosjektet får vi erfaring med reelle problemstillinger og prosjektarbeid i en profesjonell kontekst.
+            Vi jobber tett med veiledere både fra universitetet og kommunen for å sikre faglig relevans og praktisk nytteverdi.
+          </p>
+        </div>
+        <div className={styles.logoContainer}>
+          <Image
+            src="/L_KRS_Forenklet_byvaapen_horisontal.png"
+            alt="Kristiansand Kommune Logo"
+            width={250}
+            height={83}
+            className={styles.logo}
+          />
+          <Image
+            src="/uia.png"
+            alt="Universitetet i Agder Logo"
+            width={200}
+            height={100}
+            className={styles.logo}
+          />
+        </div>
+      </section>
+      
+      <section className={styles.goals}>
+        <h2>Mål og Ambisjoner</h2>
+        <div className={styles.goalsList}>
+          <div className={styles.goalItem}>
+            <h3>Læringsmål</h3>
+            <p>Beskrivelse av læringsmål for praksisen og hvordan disse skal oppnås gjennom prosjektet</p>
+          </div>
+          <div className={styles.goalItem}>
+            <h3>Prosjektmål</h3>
+            <p>Konkrete leveranser og målsettinger for prosjektet i samarbeid med kommunen</p>
+          </div>
+          <div className={styles.goalItem}>
+            <h3>Innovasjon</h3>
+            <p>Hvordan prosjektet bidrar til innovasjon og utvikling i kommunens tjenester</p>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.contact}>
+        <h2>Kontakt Oss</h2>
+        <p>Har du spørsmål om prosjektet eller ønsker mer informasjon?</p>
+        <a href="mailto:kontakt@example.com" className={styles.contactButton}>Send oss en e-post</a>
+      </section>
+    </div>
+  );
+}

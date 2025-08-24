@@ -1,0 +1,157 @@
+.container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #004071, #007bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.header p {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.content {
+  margin-bottom: 2rem;
+}
+
+.timelineItem {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.timelineItem::after {
+  content: '';
+  position: absolute;
+  left: calc(20% - 1px);
+  top: 3rem;
+  bottom: -1.5rem;
+  width: 2px;
+  background-color: #e0e0e0;
+  z-index: -1;
+}
+
+.timelineItem:last-child::after {
+  display: none;
+}
+
+.timelineDate {
+  font-weight: 600;
+  color: #004071;
+  padding-top: 0.5rem;
+  position: relative;
+}
+
+.timelineDate::after {
+  content: '';
+  position: absolute;
+  right: -0.75rem;
+  top: 0.75rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: #004071;
+}
+
+.timelineContent {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border-left: 4px solid #004071;
+}
+
+.timelineContent h2 {
+  color: #004071;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.timelineContent p {
+  color: #555;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.milestones, .challenges {
+  background-color: #f8f9fa;
+  padding: 1.2rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+.milestones h3, .challenges h3 {
+  color: #004071;
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+.milestones ul, .challenges ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.milestones li, .challenges li {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.conclusion {
+  background-color: #f0f7ff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 3rem;
+}
+
+.conclusion h2 {
+  color: #004071;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.conclusion p {
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .timelineItem {
+    grid-template-columns: 1fr;
+  }
+  
+  .timelineItem::after {
+    left: 1rem;
+    top: 3rem;
+  }
+  
+  .timelineDate {
+    padding-left: 2.5rem;
+  }
+  
+  .timelineDate::after {
+    left: 1rem;
+    right: auto;
+  }
+}
