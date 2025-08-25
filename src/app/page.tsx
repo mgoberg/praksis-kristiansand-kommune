@@ -32,7 +32,7 @@ export default function Home() {
                   src="/ElineBilde.jpg"
                   alt="Eline Widvey"
                   width={100}
-                  height={100}
+                  height={130}
                   className={styles.memberImage}
                 />
               </div>
@@ -43,7 +43,15 @@ export default function Home() {
               </p>
             </div>
             <div className={styles.teamMember}>
-              <div className={styles.memberAvatar}>👨‍🎓</div>
+              <div className={styles.memberAvatar}>
+                <Image
+                  src="/Martin.jpg"
+                  alt="Martin Goberg"
+                  width={100}
+                  height={100}
+                  className={styles.memberImage}
+                />
+              </div>
               <h3>Martin</h3>
               <p>
                 Brenner for full-stack utvikling med spesiell interesse for
