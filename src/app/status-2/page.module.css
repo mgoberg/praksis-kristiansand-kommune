@@ -15,7 +15,7 @@
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  background: linear-gradient(to right, #004071, #007bff);
+  background: linear-gradient(to right, #36734A, #007bff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -36,7 +36,7 @@
 }
 
 .progressOverview h2 {
-  color: #004071;
+  color: #36734A;
   margin-bottom: 1.5rem;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .progressBarFill {
-  background: linear-gradient(to right, #004071, #0066b3);
+  background: linear-gradient(to right, #36734A, #0066b3);
   height: 100%;
   display: flex;
   align-items: center;
@@ -63,7 +63,7 @@
 }
 
 .accomplishments h2 {
-  color: #004071;
+  color: #36734A;
   margin-bottom: 1.5rem;
 }
 
@@ -91,7 +91,7 @@
   background-color: #ebf5ff;
   border-radius: 50%;
   margin-right: 1rem;
-  color: #004071;
+  color: #36734A;
   font-size: 1.2rem;
   font-weight: bold;
   flex-shrink: 0;
@@ -102,7 +102,7 @@
 }
 
 .accomplishmentContent h3 {
-  color: #004071;
+  color: #36734A;
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
@@ -146,7 +146,7 @@
 }
 
 .insightItem h3 {
-  color: #004071;
+  color: #36734A;
   margin-top: 0;
   margin-bottom: 0.8rem;
   font-size: 1.1rem;
@@ -166,7 +166,7 @@
 }
 
 .nextSteps h2 {
-  color: #004071;
+  color: #36734A
   margin-top: 0;
   margin-bottom: 1rem;
 }

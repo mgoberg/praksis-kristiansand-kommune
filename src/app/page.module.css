@@ -27,7 +27,7 @@
 
 .header h1 {
   font-size: 3rem;
-  color: #003366;
+  color: #2D683D;
   margin-bottom: 1rem;
 }
 
@@ -72,7 +72,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  border-top: 4px solid #004071;
+  border-top: 4px solid #36734A;
 }
 
 .card:hover {
@@ -84,7 +84,7 @@
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 1.5rem;
-  color: #004071;
+  color: #36734A;
 }
 
 .card p {
@@ -99,7 +99,7 @@
 }
 
 .cardLink a {
-  color: #004071;
+  color: #36734A;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.2s ease;
@@ -108,7 +108,7 @@
 }
 
 .cardLink a:hover {
-  color: #0066b3;
+  color: #4D9A61;
   text-decoration: underline;
 }
 
@@ -164,7 +164,7 @@
 
 .content h2 {
   font-size: 2.2rem;
-  color: #003366;
+  color: #2D683D;
   text-align: center;
   margin-bottom: 3rem;
   position: relative;
@@ -178,7 +178,7 @@
   transform: translateX(-50%);
   width: 70px;
   height: 3px;
-  background-color: #0052a5;
+  background-color: #3C8A53;
 }
 
 .teamGrid {
@@ -215,11 +215,12 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  overflow: hidden;
   margin: 0 auto 1.5rem;
 }
 
 .teamMember h3 {
-  color: #0052a5;
+  color: #3C8A53;
   margin-bottom: 0.8rem;
 }
 
@@ -243,7 +244,7 @@
 
 .infoText h2 {
   font-size: 2.2rem;
-  color: #003366;
+  color: #2D683D;
   margin-bottom: 1.5rem;
 }
 
@@ -278,7 +279,7 @@
 
 .goals h2 {
   font-size: 2.2rem;
-  color: #003366;
+  color: #2D683D;
   text-align: center;
   margin-bottom: 3rem;
   position: relative;
@@ -292,7 +293,7 @@
   transform: translateX(-50%);
   width: 70px;
   height: 3px;
-  background-color: #0052a5;
+  background-color: #3C8A53;
 }
 
 .goalsList {
@@ -310,7 +311,7 @@
   padding: 2rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
-  border-left: 4px solid #0052a5;
+  border-left: 4px solid #3C8A53;
 }
 
 .goalItem:hover {
@@ -319,7 +320,7 @@
 }
 
 .goalItem h3 {
-  color: #0052a5;
+  color: #3C8A53;
   margin-bottom: 1rem;
 }
 
@@ -334,7 +335,7 @@
 
 .contact h2 {
   font-size: 2.2rem;
-  color: #003366;
+  color: #2D683D;
   margin-bottom: 1rem;
 }
 
@@ -344,7 +345,7 @@
 
 .contactButton {
   display: inline-block;
-  background-color: #0052a5;
+  background-color: #3C8A53;
   color: white;
   padding: 0.8rem 1.8rem;
   border-radius: 30px;
@@ -355,7 +356,7 @@
 }
 
 .contactButton:hover {
-  background-color: #003366;
+  background-color: #2D683D;
   transform: translateY(-3px);
   box-shadow: 0 6px 12px rgba(0, 82, 165, 0.3);
 }
@@ -365,7 +366,7 @@
   font-weight: 700;
   margin-bottom: 1.5rem;
   text-align: center;
-  color: #004071;
+  color: #36734A;
   position: relative;
   padding-bottom: 0.5rem;
   color: transparent;
@@ -395,7 +396,7 @@
 .title {
   font-size: 3rem;
   margin: 1.5rem 0;
-  color: #003366;
+  color: #2D683D;
   position: relative;
   z-index: 1;
 }
@@ -425,21 +426,21 @@
 }
 
 .primaryButton {
-  background-color: #0052a5;
+  background-color: #3C8A53;
   color: white;
   box-shadow: 0 4px 8px rgba(0, 82, 165, 0.2);
 }
 
 .primaryButton:hover {
-  background-color: #003366;
+  background-color: #2D683D;
   transform: translateY(-3px);
   box-shadow: 0 6px 12px rgba(0, 82, 165, 0.3);
 }
 
 .secondaryButton {
   background-color: white;
-  color: #0052a5;
-  border: 2px solid #0052a5;
+  color: #3C8A53;
+  border: 2px solid #3C8A53;
 }
 
 .secondaryButton:hover {
@@ -460,7 +461,7 @@
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3rem;
-  color: #003366;
+  color: #2D683D;
   position: relative;
 }
 
@@ -472,7 +473,7 @@
   transform: translateX(-50%);
   width: 80px;
   height: 3px;
-  background-color: #0052a5;
+  background-color: #3C8A53
 }
 
 .featureCards {
@@ -497,7 +498,7 @@
 .featureCard h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #0052a5;
+  color: #3C8A53;
 }
 
 /* About Section */
@@ -558,7 +559,7 @@
   content: "";
   position: absolute;
   width: 2px;
-  background-color: #0052a5;
+  background-color: #3C8A53;
   top: 0;
   bottom: 0;
   left: 20px;
@@ -575,7 +576,7 @@
   width: 40px;
   height: 40px;
   background-color: white;
-  border: 3px solid #0052a5;
+  border: 3px solid #3C8A53;
   border-radius: 50%;
   z-index: 1;
   box-shadow: 0 0 0 3px rgba(0, 82, 165, 0.2);
@@ -583,7 +584,7 @@
 }
 
 .timelineItem:hover .timelinePoint {
-  background-color: #0052a5;
+  background-color: #3C8A53;
   transform: scale(1.1);
 }
 
@@ -594,12 +595,12 @@
 
 .timelineContent h3 {
   margin-bottom: 0.5rem;
-  color: #0052a5;
+  color: #3C8A53;
 }
 
 /* Footer */
 .footer {
-  background-color: #003366;
+  background-color: #2D683D;
   color: white;
   padding: 3rem 1.5rem;
 }
