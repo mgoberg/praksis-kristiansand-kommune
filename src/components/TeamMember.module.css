@@ -1,0 +1,57 @@
+.teamMember {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.teamMember:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.memberAvatar {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background-color: #e6f0fa;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 1.5rem;
+}
+
+.teamMember h3 {
+  color: #3C8A53;
+  margin-bottom: 0.8rem;
+}
+
+.memberImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatarPlaceholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3C8A53;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.profileRole {
+  color: #666;
+  font-size: 1.1rem;
+  margin-top: 0.25rem;
+}
