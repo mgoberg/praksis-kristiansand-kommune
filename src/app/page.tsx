@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import TeamMember from "../components/TeamMember";
 
 export default function Home() {
   return (
@@ -16,48 +17,48 @@ export default function Home() {
         <section className={styles.content}>
           <h2>Vårt Team</h2>
           <div className={styles.teamGrid}>
-            <div className={styles.teamMember}>
-              <div className={styles.memberAvatar}>👩‍🎓</div>
-              <h3>Frank</h3>
-              <p>Skriv litt om deg</p>
-            </div>
-            <div className={styles.teamMember}>
-              <div className={styles.memberAvatar}>👨‍🎓</div>
-              <h3>Oliver</h3>
-              <p>Skriv litt om deg</p>
-            </div>
-            <div className={styles.teamMember}>
-              <div className={styles.memberAvatar}>
-                <Image
-                  src="/ElineBilde.jpg"
-                  alt="Eline Widvey"
-                  width={100}
-                  height={130}
-                  className={styles.memberImage}
-                />
-              </div>
-              <h3>Eline</h3>
-              <p>
-                Interesse for frontend og UX, med fokus på å lage brukervennlige
-                og praktiske løsninger.
-              </p>
-            </div>
-            <div className={styles.teamMember}>
-              <div className={styles.memberAvatar}>
-                <Image
-                  src="/Martin.jpg"
-                  alt="Martin Goberg"
-                  width={100}
-                  height={100}
-                  className={styles.memberImage}
-                />
-              </div>
-              <h3>Martin</h3>
-              <p>
-                Brenner for full-stack utvikling med spesiell interesse for
-                systemutvikling.
-              </p>
-            </div>
+            <TeamMember 
+              name="Frank"
+              bio="Skriv litt om deg"
+              role="Student ved UiA"
+              details="Frank er en engasjert student ved Universitetet i Agder med interesse... [FYLL INN HER FRANK]"
+              socialLinks={{
+                linkedin: "https://www.linkedin.com/",
+                github: "https://github.com/"
+              }}
+            />
+            <TeamMember 
+              name="Oliver"
+              bio="Skriv litt om deg"
+              role="Student ved UiA"
+              details="Oliver studerer ved Universitetet i Agder og er opptatt av...[FYLL INN HER OLIVER]"
+              socialLinks={{
+                linkedin: "https://www.linkedin.com/",
+                github: "https://github.com/"
+              }}
+            />
+            <TeamMember 
+              name="Eline"
+              bio="Interesse for frontend og UX, med fokus på å lage brukervennlige og praktiske løsninger."
+              avatar="/ElineBilde.jpg"
+              role="Student ved UiA"
+              details="Eline er en dedikert student ved Universitetet i Agder med fokus på...[FYLL INN HER ELINE]"
+              socialLinks={{
+                linkedin: "https://www.linkedin.com/",
+                github: "https://github.com/"
+              }}
+            />
+            <TeamMember 
+              name="Martin"
+              bio="Brenner for full-stack utvikling med spesiell interesse for systemutvikling."
+              avatar="/Martin.jpg"
+              role="Student ved UiA"
+              details="Martin er en allsidig utvikler med bakgrunn fra Universitetet i Agder. Han har kompetanse innen både frontend og backend, og er spesielt interessert i systemutvikling og API'er."
+              socialLinks={{
+                linkedin: "https://www.linkedin.com/in/martin-goberg-678534248/",
+                github: "https://github.com/mgoberg"
+              }}
+            />
           </div>
         </section>
 
