@@ -27,9 +27,20 @@ export default function Home() {
               <p>Skriv litt om deg</p>
             </div>
             <div className={styles.teamMember}>
-              <div className={styles.memberAvatar}>👩‍🎓</div>
+              <div className={styles.memberAvatar}>
+                <Image
+                  src="/ElineBilde.jpg"
+                  alt="Eline Widvey"
+                  width={100}
+                  height={100}
+                  className={styles.memberImage}
+                />
+              </div>
               <h3>Eline</h3>
-              <p>Skriv litt om deg</p>
+              <p>
+                Interesse for frontend og UX, med fokus på å lage brukervennlige
+                og praktiske løsninger.
+              </p>
             </div>
             <div className={styles.teamMember}>
               <div className={styles.memberAvatar}>👨‍🎓</div>
