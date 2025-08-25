@@ -1,0 +1,52 @@
+.container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #2D683D, #3C8A53);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.header p {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.notater {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.notat {
+  background-color: #f9f9f9;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  border-left: 5px solid #2D683D;
+}
+
+.dato {
+  font-weight: 600;
+  color: #2D683D;
+  margin-bottom: 0.5rem;
+}
+
+.notat p {
+  line-height: 1.5; /* større avstand mellom linjene i kommentarene */
+  margin: 0;
+}
