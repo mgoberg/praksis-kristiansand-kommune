@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
 import styles from "./Navbar.module.css";
 
 export default function Navbar() {
@@ -15,7 +16,13 @@ export default function Navbar() {
     <nav className={styles.navbar}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          Praksis KRS
+          <Image 
+            src="/L_KRS_Forenklet_byvaapen_horisontal.png" 
+            alt="Kristiansand Kommune Logo" 
+            width={180} 
+            height={60} 
+            className={styles.logoImage}
+          />
         </Link>
 
         <div className={styles.menuIcon} onClick={toggleMenu}>
