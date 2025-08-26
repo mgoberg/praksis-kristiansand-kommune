@@ -29,7 +29,7 @@ export default function Home() {
             />
             <TeamMember
               name="Oliver"
-              bio="Interesse for Full-stack utvikling med fokus på å levere fungerende og estetiske løsninger."
+              bio="Interesse for full-stack utvikling med fokus på å levere fungerende og estetiske løsninger."
               avatar="/OliverBilde.jpg"
               role="Student ved UiA"
               details="Oliver studerer ved Universitetet i Agder og er opptatt av å skape helhetlige digitale løsninger. Han har erfaring med både frontend og backend, og liker å jobbe med prosjekter som kombinerer funksjonalitet og design."
