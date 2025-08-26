@@ -78,7 +78,7 @@ const TeamMember = ({
 
           {details && (
             <div className={modalStyles.profileDetails}>
-              <h3 className={modalStyles.detailsTitle}>About</h3>
+              <h3 className={modalStyles.detailsTitle}>Litt mer om {name}</h3>
               <p>{details}</p>
             </div>
           )}

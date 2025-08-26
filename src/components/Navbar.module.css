@@ -55,17 +55,17 @@
 }
 
 .navLink:hover {
-  color: #3E8052;
+  color: #3e8052;
 }
 
 .navLink::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #3E8052;
+  background-color: #3e8052;
   transition: width 0.3s ease;
 }
 
