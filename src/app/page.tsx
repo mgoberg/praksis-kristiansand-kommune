@@ -17,46 +17,47 @@ export default function Home() {
         <section className={styles.content}>
           <h2>Vårt Team</h2>
           <div className={styles.teamGrid}>
-            <TeamMember 
+            <TeamMember
               name="Frank"
               bio="Skriv litt om deg"
               role="Student ved UiA"
               details="Frank er en engasjert student ved Universitetet i Agder med interesse... [FYLL INN HER FRANK]"
               socialLinks={{
                 linkedin: "https://www.linkedin.com/",
-                github: "https://github.com/"
+                github: "https://github.com/",
               }}
             />
-            <TeamMember 
+            <TeamMember
               name="Oliver"
               bio="Skriv litt om deg"
               role="Student ved UiA"
               details="Oliver studerer ved Universitetet i Agder og er opptatt av...[FYLL INN HER OLIVER]"
               socialLinks={{
                 linkedin: "https://www.linkedin.com/",
-                github: "https://github.com/"
+                github: "https://github.com/",
               }}
             />
-            <TeamMember 
+            <TeamMember
               name="Eline"
               bio="Interesse for frontend og UX, med fokus på å lage brukervennlige og praktiske løsninger."
               avatar="/ElineBilde.jpg"
               role="Student ved UiA"
-              details="Eline er en dedikert student ved Universitetet i Agder med fokus på...[FYLL INN HER ELINE]"
+              details="Eline er en dedikert student ved Universitetet i Agder med fokus på frontend-utvikling og UX-design. Hun brenner for å skape intuitive og tilgjengelige brukeropplevelser, og liker å kombinere kreativitet med praktiske løsninger."
               socialLinks={{
-                linkedin: "https://www.linkedin.com/",
-                github: "https://github.com/"
+                linkedin: "https://www.linkedin.com/in/eline-widvey/",
+                github: "https://github.com/ElineWi",
               }}
             />
-            <TeamMember 
+            <TeamMember
               name="Martin"
               bio="Brenner for full-stack utvikling med spesiell interesse for systemutvikling."
               avatar="/Martin.jpg"
               role="Student ved UiA"
               details="Martin er en allsidig utvikler med bakgrunn fra Universitetet i Agder. Han har kompetanse innen både frontend og backend, og er spesielt interessert i systemutvikling og API'er."
               socialLinks={{
-                linkedin: "https://www.linkedin.com/in/martin-goberg-678534248/",
-                github: "https://github.com/mgoberg"
+                linkedin:
+                  "https://www.linkedin.com/in/martin-goberg-678534248/",
+                github: "https://github.com/mgoberg",
               }}
             />
           </div>

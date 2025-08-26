@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from 'react';
-import Image from 'next/image';
-import Modal from './Modal';
-import styles from './TeamMember.module.css';
-import modalStyles from './Modal.module.css';
+import { useState } from "react";
+import Image from "next/image";
+import Modal from "./Modal";
+import styles from "./TeamMember.module.css";
+import modalStyles from "./Modal.module.css";
+import { BiLogoGithub, BiLogoLinkedin } from "react-icons/bi";
 
 interface SocialLinks {
   linkedin?: string;
@@ -20,7 +21,14 @@ interface TeamMemberProps {
   details?: string;
 }
 
-const TeamMember = ({ name, bio, avatar, role, socialLinks, details }: TeamMemberProps) => {
+const TeamMember = ({
+  name,
+  bio,
+  avatar,
+  role,
+  socialLinks,
+  details,
+}: TeamMemberProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => setIsModalOpen(true);
@@ -58,14 +66,16 @@ const TeamMember = ({ name, bio, avatar, role, socialLinks, details }: TeamMembe
                 className={modalStyles.profileImage}
               />
             ) : (
-              <div className={modalStyles.avatarPlaceholder}>{name.charAt(0)}</div>
+              <div className={modalStyles.avatarPlaceholder}>
+                {name.charAt(0)}
+              </div>
             )}
             <h2 className={modalStyles.profileName}>{name}</h2>
             {role && <p className={styles.profileRole}>{role}</p>}
           </div>
 
           <p className={modalStyles.profileBio}>{bio}</p>
-          
+
           {details && (
             <div className={modalStyles.profileDetails}>
               <h3 className={modalStyles.detailsTitle}>About</h3>
@@ -82,7 +92,7 @@ const TeamMember = ({ name, bio, avatar, role, socialLinks, details }: TeamMembe
                   rel="noopener noreferrer"
                   className={`${modalStyles.socialLink} ${modalStyles.linkedin}`}
                 >
-                  LinkedIn
+                  <BiLogoLinkedin />
                 </a>
               )}
               {socialLinks.github && (
@@ -92,7 +102,7 @@ const TeamMember = ({ name, bio, avatar, role, socialLinks, details }: TeamMembe
                   rel="noopener noreferrer"
                   className={`${modalStyles.socialLink} ${modalStyles.github}`}
                 >
-                  GitHub
+                  <BiLogoGithub />
                 </a>
               )}
             </div>
