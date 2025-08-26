@@ -29,9 +29,10 @@ export default function Home() {
             />
             <TeamMember
               name="Oliver"
-              bio="Skriv litt om deg"
+              bio="Interesse for Full-stack utvikling med fokus på å levere fungerende og estetiske løsninger."
+              avatar="/OliverBilde.jpg"
               role="Student ved UiA"
-              details="Oliver studerer ved Universitetet i Agder og er opptatt av...[FYLL INN HER OLIVER]"
+              details="Oliver studerer ved Universitetet i Agder og er opptatt av å skape helhetlige digitale løsninger. Han har erfaring med både frontend og backend, og liker å jobbe med prosjekter som kombinerer funksjonalitet og design."
               socialLinks={{
                 linkedin: "https://www.linkedin.com/",
                 github: "https://github.com/",
