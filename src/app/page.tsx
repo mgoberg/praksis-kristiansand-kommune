@@ -54,7 +54,7 @@ export default function Home() {
               bio="Brenner for full-stack utvikling med spesiell interesse for systemutvikling."
               avatar="/Martin.jpg"
               role="Student ved UiA"
-              details="Martin er en allsidig utvikler med bakgrunn fra Universitetet i Agder. Han har kompetanse innen både frontend og backend, og er spesielt interessert i systemutvikling og API'er."
+              details="Martin er en engasjert og hardtarbeidende student ved Universitetet i Agder med en sterk interesse for full-stack utvikling. Han liker å jobbe med komplekse systemer og har erfaring med både frontend og backend teknologier. Martin er alltid ivrig etter å lære nye teknologier og forbedre sine ferdigheter."
               socialLinks={{
                 linkedin:
                   "https://www.linkedin.com/in/martin-goberg-678534248/",
@@ -82,33 +82,47 @@ export default function Home() {
 
             <b>KartAI</b>
             <p>
-              Skrive noe om KartAI og de forskjellige prosjektene vi skal jobbe
-              med? Dette kan skrives mer om på onsdag.
+              Her kommer det mer, når vi har fått mer informasjon hva vi skal
+              jobbe med.
             </p>
           </div>
           <div className={styles.logoContainer}>
-            <Image
-              src="/L_KRS_Forenklet_byvaapen_horisontal.png"
-              alt="Kristiansand Kommune Logo"
-              width={250}
-              height={83}
-              className={styles.logo}
-              priority
-            />
-            <Image
-              src="/uia.png"
-              alt="Universitetet i Agder Logo"
-              width={200}
-              height={100}
-              className={styles.logo}
-            />
-            <Image
-              src="/Kartai-logo_white.png"
-              alt="KartAI Logo"
-              width={200}
-              height={100}
-              className={styles.logo}
-            />
+            <a
+              href="https://www.kristiansand.kommune.no"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/L_KRS_Forenklet_byvaapen_horisontal.png"
+                alt="Kristiansand Kommune Logo"
+                width={250}
+                height={83}
+                className={styles.logo}
+                priority
+              />
+            </a>
+            <a href="https://uia.no" target="_blank" rel="noopener noreferrer">
+              <Image
+                src="/uia.png"
+                alt="Universitetet i Agder Logo"
+                width={200}
+                height={100}
+                className={styles.logo}
+              />
+            </a>
+            <a
+              href="https://kartai.no"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/Kartai-logo_white.png"
+                alt="KartAI Logo"
+                width={200}
+                height={100}
+                className={styles.logo}
+              />
+            </a>
           </div>
         </section>
 
@@ -117,15 +131,15 @@ export default function Home() {
           <div className={styles.goalsList}>
             <div className={styles.goalItem}>
               <h3>Læringsmål</h3>
-              <p>Skrive litt om våre læringsmål</p>
+              <p>Kommer</p>
             </div>
             <div className={styles.goalItem}>
               <h3>Prosjektmål</h3>
-              <p>Hva ønsker vi å oppnå med prosjektet?</p>
+              <p>Kommer</p>
             </div>
             <div className={styles.goalItem}>
               <h3>Innovasjon</h3>
-              <p>Hvordan bidrar vår praksis til innovasjon i kommunen?</p>
+              <p>Kommer</p>
             </div>
           </div>
         </section>

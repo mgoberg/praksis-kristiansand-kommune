@@ -16,11 +16,11 @@ export default function Navbar() {
     <nav className={styles.navbar}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          <Image 
-            src="/L_KRS_Forenklet_byvaapen_horisontal.png" 
-            alt="Kristiansand Kommune Logo" 
-            width={180} 
-            height={60} 
+          <Image
+            src="/L_KRS_Forenklet_byvaapen_horisontal.png"
+            alt="Kristiansand Kommune Logo"
+            width={180}
+            height={60}
             className={styles.logoImage}
           />
         </Link>
