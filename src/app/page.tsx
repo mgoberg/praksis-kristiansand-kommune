@@ -35,8 +35,8 @@ export default function Home() {
               role="Full-Stack Utvikler"
               details="Oliver studerer ved Universitetet i Agder og er opptatt av å skape helhetlige digitale løsninger. Han har erfaring med både frontend og backend, og liker å jobbe med prosjekter som kombinerer funksjonalitet og design."
               socialLinks={{
-                linkedin: "https://www.linkedin.com/",
-                github: "https://github.com/",
+                linkedin: "https://www.linkedin.com/in/oliver-gyve/",
+                github: "https://github.com/olivgyv",
               }}
             />
             <TeamMember
