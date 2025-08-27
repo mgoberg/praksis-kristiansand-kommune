@@ -9,7 +9,8 @@ export default function Prosjektdagbok() {
     },
     {
       dato: "27.08.25",
-      kommentar: "Kommer!",
+      kommentar:
+        "Dagen startet med at gruppen ble tildelt en case for å sette oss inn i hvordan søkeprosessen fungerer for byggesaker. Videre hadde vi et kort veiledningsmøte på 15 minutter for å få veiledning om casen og innsikt i hvordan prosessen oppleves for vanlige folk. Etter veiledningsmøtet hadde vi lunsjpause med de ansatte, før vi definerte tydelige roller innad i gruppen. Til slutt satte vi oss inn i repositoryen med tidligere oppgaver og prøvde å få alt til å fungere på alle sine maskiner.",
     },
 
     // Du kan legge til flere notater her
