@@ -38,6 +38,12 @@ export default function Navbar() {
         </div>
 
         <ul className={`${styles.navmenu} ${isMenuOpen ? styles.active : ""}`}>
+
+          <li className={styles.navItem}>
+            <Link href="/." className={styles.navLink}>
+              Hjem
+            </Link>
+          </li>
           <li className={styles.navItem}>
             <Link href="/projectJournal" className={styles.navLink}>
               Prosjektdagbok
