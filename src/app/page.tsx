@@ -19,12 +19,13 @@ export default function Home() {
           <div className={styles.teamGrid}>
             <TeamMember
               name="Frank"
-              bio="Skriv litt om deg"
+              bio="Interesse for backend-utvikling og systemarkitektur."
+              avatar="/Frank.jpg"
               role="Student ved UiA"
-              details="Frank er en engasjert student ved Universitetet i Agder med interesse... [FYLL INN HER FRANK]"
+              details="Frank er en engasjert student ved Universitetet i Agder med interesse og har spesiell interesse for backend-utvikling med særlig fokus på Python og Javascript. Han er opptatt av å lage systemer som er effektive, og liker å jobbe med prosjekter som utfordrer hans tekniske ferdigheter."
               socialLinks={{
                 linkedin: "https://www.linkedin.com/",
-                github: "https://github.com/",
+                github: "https://github.com/FrankUiA",
               }}
             />
             <TeamMember
