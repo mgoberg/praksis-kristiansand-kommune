@@ -42,8 +42,8 @@ const TeamMember = ({
             <Image
               src={avatar}
               alt={name}
-              width={100}
-              height={100}
+              width={140}
+              height={140}
               className={styles.memberImage}
             />
           ) : (
@@ -51,6 +51,7 @@ const TeamMember = ({
           )}
         </div>
         <h3>{name}</h3>
+        {role && <p className={styles.profileRole}>{role}</p>}
         <p>{bio}</p>
       </div>
 
@@ -71,10 +72,10 @@ const TeamMember = ({
               </div>
             )}
             <h2 className={modalStyles.profileName}>{name}</h2>
-            {role && <p className={styles.profileRole}>{role}</p>}
+            {role && <p className={styles.profileRole2}>{role}</p>}
           </div>
 
-          <p className={modalStyles.profileBio}>{bio}</p>
+          
 
           {details && (
             <div className={modalStyles.profileDetails}>

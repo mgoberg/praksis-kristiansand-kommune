@@ -100,16 +100,16 @@
 }
 
 .profileBio {
-  font-size: 1.1rem;
+  font-size: 10rem;
   line-height: 1.6;
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
   color: #555;
 }
 
 .profileDetails {
   width: 100%;
   text-align: left;
-  margin-top: 1rem;
+  margin-top: 0rem;
 }
 
 .detailsTitle {

@@ -1,6 +1,6 @@
 .container {
   padding: 2rem;
-  padding-top: 5rem; /* Added top padding to account for navbar height */
+  padding-top: 5rem;
   max-width: 800px;
   margin: 0 auto;
 }

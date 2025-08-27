@@ -6,7 +6,7 @@ export default function Status1() {
       <section className={styles.header}>
         <h1>Status 1</h1>
         <p>
-          Første statusrapport for vårt praksisarbeid hos Kristiansand Kommune
+          Første statusrapport for vårt praksisarbeid hos Kristiansand kommune
         </p>
       </section>
 

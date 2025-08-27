@@ -21,7 +21,7 @@ export default function Prosjektdagbok() {
         <h1>Prosjektdagbok</h1>
         <p>
           Daglige og ukentlige notater fra praksisarbeidet hos Kristiansand
-          Kommune
+          kommune
         </p>
       </header>
 
