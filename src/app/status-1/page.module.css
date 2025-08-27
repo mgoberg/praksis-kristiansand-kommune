@@ -1,5 +1,6 @@
 .container {
   padding: 2rem;
+  padding-top: 5rem; /* Added top padding to account for navbar height */
   max-width: 800px;
   margin: 0 auto;
 }
@@ -125,7 +126,7 @@
 }
 
 .conclusion h2 {
-  color: #2D683D
+  color: #2D683D;
   margin-top: 0;
   margin-bottom: 1rem;
 }
