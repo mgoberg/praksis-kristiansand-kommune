@@ -32,6 +32,17 @@ export default function Status1() {
           </div>
         </div>
 
+        <div className={styles["gallery-container"]}>
+          <section className={styles.gallery}>
+            <img src="/Dag2.png" alt="Dag 1" />
+            <img src="/Dag2.png" alt="Dag 2" />
+            <img src="/Dag2.png" alt="Dag 3" />
+            <img src="/Dag2.png" alt="Dag 4" />
+            <img src="/Dag2.png" alt="Dag 5" />
+            <img src="/Dag2.png" alt="Dag 6" />
+          </section>
+        </div>
+
         <div className={styles.timelineItem}>
           <div className={styles.timelineDate}>September 2025</div>
           <div className={styles.timelineContent}>

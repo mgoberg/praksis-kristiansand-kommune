@@ -137,6 +137,48 @@
   margin: 0;
 }
 
+.gallery-container {
+  overflow-x: auto;       /* Scrollbar */
+  padding: 0 2rem; 
+  margin-bottom: 2.5rem;       
+}
+
+.gallery {
+  display: flex;
+  gap: 1rem;              
+  flex-wrap: nowrap;      
+}
+
+.gallery img {
+  flex: 0 0 auto;        
+  height: 200px;
+  width: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 0.5rem; 
+
+}
+
+/* Scrollbar styling */
+.gallery-container::-webkit-scrollbar {
+  height: 12px;
+}
+
+.gallery-container::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 6px;
+  margin: 0 30px;
+}
+
+.gallery-container::-webkit-scrollbar-thumb {
+  background: #2D683D;
+  border-radius: 6px;
+}
+
+.gallery-container::-webkit-scrollbar-thumb:hover {
+  background: #3C8A53;
+}
+
 @media (max-width: 768px) {
   .timelineItem {
     grid-template-columns: 1fr;
