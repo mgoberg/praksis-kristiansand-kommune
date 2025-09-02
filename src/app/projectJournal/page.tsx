@@ -17,6 +17,11 @@ export default function Prosjektdagbok() {
       kommentar:
         "Dagen startet med at vi utarbeidet en gruppekontakt og en samarbeidsavtale for å tydeliggjøre roller og forventninger i gruppen. Deretter jobbet vi med å få alle prosjektene til å kjøre på hver enkelt sin maskin, slik at alle hadde lik tilgang til materialet. Vi hadde deretter en hyggelig lunsj med fredagspizza sammen med de ansatte. Resten av dagen brukte vi på å diskutere ulike ideer til prosjektet, før vi presenterte og forklarte forslagene våre til de ansatte for å få innspill.",
     },
+    {
+      dato: "02.09.25",
+      kommentar:
+        "I dag gjennomgikk vi de ulike ideene vi har jobbet med så langt, og kom frem til en felles løsning for å forbedre informasjonsflyten innen plan og bygg, slik at brukerne lettere kan få oversikt over nødvendig informasjon. Vi presenterte løsningen for de interne ansatte og fikk tilbakemelding om at vi kunne fortsette på dette sporet. Etter møtet fordelte vi oppgaver internt i gruppen: Frank satte opp programmeringsmiljøet, Oliver og Eline begynte å tegne skisser og kartlegge dagens situasjon, mens Martin jobbet med å få “Utstillingsvindu”, en tidligere oppgave, opp og kjøre på maskinen sin. Etter lunsj fortsatte vi med de tildelte oppgavene og jobbet videre med å konkretisere løsningen.",
+    },
 
     // Du kan legge til flere notater her
   ];
