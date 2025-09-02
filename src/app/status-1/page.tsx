@@ -35,7 +35,7 @@ export default function Status1() {
         <div className={styles["gallery-container"]}>
           <section className={styles.gallery}>
             <img src="/Dag2.png" alt="Dag 1" />
-            <img src="/Dag2.png" alt="Dag 2" />
+            <img src="/2.sep.jpg" alt="Dag 2" />
             <img src="/Dag2.png" alt="Dag 3" />
             <img src="/Dag2.png" alt="Dag 4" />
             <img src="/Dag2.png" alt="Dag 5" />
