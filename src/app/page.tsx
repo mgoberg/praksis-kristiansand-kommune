@@ -83,7 +83,7 @@ export default function Home() {
               <h2> Oppgavebeskrivelse </h2>
             <p>
               Gruppen skal fungere som et agilt team som er “hyret” av Kristiansand kommune til å bidra i utvikling og forbedring av prosesser knyttet til plan- og byggesaker. Teamet skal jobbe selvstendig og ta ansvar for å identifisere prosjektideer, videreutvikle dem og gjennomføre iterativt arbeid mot ferdige leveranser.</p>
-<p>ålet er å undersøke tidligere oppgaver og løsninger, og bygge videre på disse for å gjøre prosessene rundt søknader enklere, mer effektive og mer brukervennlige.
+<p>Målet er å undersøke tidligere oppgaver og løsninger, og bygge videre på disse for å gjøre prosessene rundt søknader enklere, mer effektive og mer brukervennlige.
 
             </p>
           </div>

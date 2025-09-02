@@ -91,6 +91,9 @@
   .menuIcon {
     display: block;
     z-index: 2;
+    position: absolute;
+    right: 20vw;
+    top: 1.2rem;
   }
 
   .navmenu {
