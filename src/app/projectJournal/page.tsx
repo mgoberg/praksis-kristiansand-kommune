@@ -1,7 +1,15 @@
+
+"use client";
 import styles from "./page.module.css";
+import { useState } from "react";
 
 export default function Prosjektdagbok() {
-  const dagbokNotater = [
+  type Notat = {
+    dato: string;
+    kommentar: string;
+  };
+
+  const dagbokNotater: Notat[] = [
     {
       dato: "22.08.25",
       kommentar:
@@ -26,23 +34,86 @@ export default function Prosjektdagbok() {
     // Du kan legge til flere notater her
   ];
 
+  // Helper to group notes by month
+  const groupByMonth = (notes: Notat[]): Record<string, Notat[]> => {
+    return notes.reduce<Record<string, Notat[]>>((acc, note) => {
+      const [day, month, year] = note.dato.split(".");
+      const key = `${month}.${year}`;
+      if (!acc[key]) acc[key] = [];
+      acc[key].push(note);
+      return acc;
+    }, {});
+  };
+
+  const notesByMonth = groupByMonth(dagbokNotater);
+  const monthKeys = Object.keys(notesByMonth).sort((a, b) => {
+    // Sort by year then month ascending (chronological)
+    const [ma, ya] = a.split(".").map(Number);
+    const [mb, yb] = b.split(".").map(Number);
+    return ya - yb || ma - mb;
+  });
+
+  // State for toggles
+  // Most recent month is the last in chronological order
+  const [activeMonth, setActiveMonth] = useState<string | null>(monthKeys.length > 0 ? monthKeys[monthKeys.length - 1] : null);
+
+  const handleMonthClick = (monthKey: string) => {
+    setActiveMonth(monthKey);
+  };
+
+  // Helper to get month name
+  const monthNames = [
+    "Januar", "Februar", "Mars", "April", "Mai", "Juni",
+    "Juli", "August", "September", "Oktober", "November", "Desember"
+  ];
+  const getMonthLabel = (key: string): string => {
+    const [month, year] = key.split(".");
+    const mIdx = Number(month) - 1;
+    return `${monthNames[mIdx]} ${year}`;
+  };
+
   return (
     <div className={styles.container}>
       <header className={styles.header}>
         <h1>Prosjektdagbok</h1>
         <p>
-          Daglige og ukentlige notater fra praksisarbeidet hos Kristiansand
-          kommune
+          Daglige og ukentlige notater fra praksisarbeidet hos Kristiansand kommune
         </p>
       </header>
 
-      <div className={styles.notater}>
-        {dagbokNotater.map((notat, index) => (
-          <div key={index} className={styles.notat}>
-            <div className={styles.dato}>{notat.dato}</div>
-            <p>{notat.kommentar}</p>
-          </div>
+      <div style={{ display: "flex", gap: "1em", flexWrap: "wrap", marginBottom: "2em" }}>
+        {monthKeys.map((monthKey: string) => (
+          <button
+            key={monthKey}
+            style={{
+              padding: "0.75em 1.5em",
+              fontWeight: "bold",
+              background: activeMonth === monthKey ? "#218838" : "#eee",
+              color: activeMonth === monthKey ? "#fff" : "#222",
+              border: "1px solid #ccc",
+              borderRadius: "8px",
+              cursor: "pointer",
+              boxShadow: activeMonth === monthKey ? "0 2px 8px rgba(0,0,0,0.08)" : "none"
+            }}
+            onClick={() => handleMonthClick(monthKey)}
+          >
+            {getMonthLabel(monthKey)}
+          </button>
         ))}
+      </div>
+
+      <div className={styles.notater}>
+        {activeMonth && notesByMonth[activeMonth] && (
+          notesByMonth[activeMonth].map((notat: Notat, idx: number) => (
+            <div key={idx} className={styles.notat}>
+              <div className={styles.dato}>{notat.dato}</div>
+              <p>{notat.kommentar}</p>
+            </div>
+          ))
+        )}
+        {!activeMonth && (
+          <p style={{ color: "#888", fontStyle: "italic" }}>Velg en måned for å vise notater.</p>
+        )}
       </div>
     </div>
   );
