@@ -1,4 +1,3 @@
-
 "use client";
 import styles from "./page.module.css";
 import { useState } from "react";
@@ -30,10 +29,15 @@ export default function Prosjektdagbok() {
       kommentar:
         "I dag gjennomgikk vi de ulike ideene vi har jobbet med så langt, og kom frem til en felles løsning for å forbedre informasjonsflyten innen plan og bygg, slik at brukerne lettere kan få oversikt over nødvendig informasjon. Vi presenterte løsningen for de interne ansatte og fikk tilbakemelding om at vi kunne fortsette på dette sporet. Etter møtet fordelte vi oppgaver internt i gruppen: Frank satte opp programmeringsmiljøet, Oliver og Eline begynte å tegne skisser og kartlegge dagens situasjon, mens Martin jobbet med å få “Utstillingsvindu”, en tidligere oppgave, opp og kjøre på maskinen sin. Etter lunsj fortsatte vi med de tildelte oppgavene og jobbet videre med å konkretisere løsningen.",
     },
-     {
+    {
       dato: "05.09.25",
       kommentar:
         "Dagen startet med at vi brukte tid på å diskutere ideene våre. Vi fikk også mulighet til å se en presentasjon om hvordan arkivsystemet deres fungere og kan forbedres. Etter presentasjonen hadde vi lunsj sammen med de ansatte. Resten av dagen jobbet vi med egne oppgaver i gruppen, før vi avsluttet dagen med en hyggelig ispause sammen med de ansatte.",
+    },
+    {
+      dato: "09.09.25",
+      kommentar:
+        "I dag jobbet vi først med Status 1-presentasjonen, hvor vi samlet og strukturerte det vi har gjort så langt i prosjektet. Etter dette hadde vi en felles lunsj med de ansatte, som ga en fin mulighet til å diskutere prosjektet mer uformelt. Resten av dagen fortsatte vi med egne oppgaver i gruppen.",
     },
 
     // Du kan legge til flere notater her
@@ -60,7 +64,9 @@ export default function Prosjektdagbok() {
 
   // State for toggles
   // Most recent month is the last in chronological order
-  const [activeMonth, setActiveMonth] = useState<string | null>(monthKeys.length > 0 ? monthKeys[monthKeys.length - 1] : null);
+  const [activeMonth, setActiveMonth] = useState<string | null>(
+    monthKeys.length > 0 ? monthKeys[monthKeys.length - 1] : null
+  );
 
   const handleMonthClick = (monthKey: string) => {
     setActiveMonth(monthKey);
@@ -68,8 +74,18 @@ export default function Prosjektdagbok() {
 
   // Helper to get month name
   const monthNames = [
-    "Januar", "Februar", "Mars", "April", "Mai", "Juni",
-    "Juli", "August", "September", "Oktober", "November", "Desember"
+    "Januar",
+    "Februar",
+    "Mars",
+    "April",
+    "Mai",
+    "Juni",
+    "Juli",
+    "August",
+    "September",
+    "Oktober",
+    "November",
+    "Desember",
   ];
   const getMonthLabel = (key: string): string => {
     const [month, year] = key.split(".");
@@ -82,11 +98,19 @@ export default function Prosjektdagbok() {
       <header className={styles.header}>
         <h1>Prosjektdagbok</h1>
         <p>
-          Daglige og ukentlige notater fra praksisarbeidet hos Kristiansand kommune
+          Daglige og ukentlige notater fra praksisarbeidet hos Kristiansand
+          kommune
         </p>
       </header>
 
-      <div style={{ display: "flex", gap: "1em", flexWrap: "wrap", marginBottom: "2em" }}>
+      <div
+        style={{
+          display: "flex",
+          gap: "1em",
+          flexWrap: "wrap",
+          marginBottom: "2em",
+        }}
+      >
         {monthKeys.map((monthKey: string) => (
           <button
             key={monthKey}
@@ -98,7 +122,10 @@ export default function Prosjektdagbok() {
               border: "1px solid #ccc",
               borderRadius: "8px",
               cursor: "pointer",
-              boxShadow: activeMonth === monthKey ? "0 2px 8px rgba(0,0,0,0.08)" : "none"
+              boxShadow:
+                activeMonth === monthKey
+                  ? "0 2px 8px rgba(0,0,0,0.08)"
+                  : "none",
             }}
             onClick={() => handleMonthClick(monthKey)}
           >
@@ -108,16 +135,18 @@ export default function Prosjektdagbok() {
       </div>
 
       <div className={styles.notater}>
-        {activeMonth && notesByMonth[activeMonth] && (
+        {activeMonth &&
+          notesByMonth[activeMonth] &&
           notesByMonth[activeMonth].map((notat: Notat, idx: number) => (
             <div key={idx} className={styles.notat}>
               <div className={styles.dato}>{notat.dato}</div>
               <p>{notat.kommentar}</p>
             </div>
-          ))
-        )}
+          ))}
         {!activeMonth && (
-          <p style={{ color: "#888", fontStyle: "italic" }}>Velg en måned for å vise notater.</p>
+          <p style={{ color: "#888", fontStyle: "italic" }}>
+            Velg en måned for å vise notater.
+          </p>
         )}
       </div>
     </div>
