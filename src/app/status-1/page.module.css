@@ -1,3 +1,21 @@
+.workplace {
+  background-color: #f0f7ff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2.5rem;
+}
+
+.workplace h2 {
+  color: #2D683D;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.workplace p {
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+}
 .container {
   padding: 2rem;
   padding-top: 5rem;

@@ -10,6 +10,18 @@ export default function Status1() {
         </p>
       </section>
 
+      {/* Om Arbeidsplassen section */}
+      <section className={styles.workplace}>
+        <h2>Om Kristiansand kommune</h2>
+        <p>
+          Kristiansand kommune er en av Norges største kommuner med over
+          110,000 innbyggere. Kommunen har et bredt spekter av tjenester og
+          avdelinger som jobber for å sikre god livskvalitet for sine innbyggere.
+        </p>
+        <p>Vi jobber i en avdeling av kommunen som heter By- og stedsutvikling, her har de ansvar for reguleringsplaner, byggesaker, kart, eiendomskatt og oppmålingsforretning.</p>
+        <p>Avdelingen består av et tverrfaglig team med ingeniører, planleggere og arkitekter som samarbeider for å utvikle og forbedre byens infrastruktur og offentlige rom.</p>
+      </section>
+
       <section className={styles.content}>
         <div className={styles.timelineItem}>
           <div className={styles.timelineDate}>August 2025</div>
@@ -46,12 +58,14 @@ export default function Status1() {
         <div className={styles.timelineItem}>
           <div className={styles.timelineDate}>September 2025</div>
           <div className={styles.timelineContent}>
-            <h2>Kommer!</h2>
+            <h2>Våre arbeidsoppgaver</h2>
             <p>Kommer!</p>
             <div className={styles.challenges}>
-              <h3>Kommer!</h3>
+              <h3>Viktige milepæler:</h3>
               <ul>
-                <li>Kommer!</li>
+                <li>Satt oss inn i byggesaker</li>
+                <li>Fått oversikten over pågående prosjekter</li>
+                <li></li>
               </ul>
             </div>
           </div>
