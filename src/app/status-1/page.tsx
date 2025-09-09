@@ -1,6 +1,48 @@
+"use client";
+
+import { useState } from "react";
 import styles from "./page.module.css";
+import Modal from "../../components/Modal";
+
+interface ImageModalProps {
+  src: string;
+  alt: string;
+  caption?: string;
+  isOpen: boolean;
+  onClose: () => void;
+}
+
+// Component for image modal
+const ImageModal = ({ src, alt, caption, isOpen, onClose }: ImageModalProps) => {
+  if (!isOpen) return null;
+  
+  return (
+    <Modal isOpen={isOpen} onClose={onClose}>
+      <div className={styles.imageModalContent}>
+        <img src={src} alt={alt} className={styles.enlargedImage} />
+        {caption && <div className={styles.imageCaption}>{caption}</div>}
+      </div>
+    </Modal>
+  );
+};
 
 export default function Status1() {
+  // State for modal
+  const [modalImage, setModalImage] = useState<string | null>(null);
+  const [modalAlt, setModalAlt] = useState<string>("");
+  const [modalCaption, setModalCaption] = useState<string>("");
+  
+  // Function to open modal
+  const openImageModal = (src: string, alt: string, caption: string) => {
+    setModalImage(src);
+    setModalAlt(alt);
+    setModalCaption(caption);
+  };
+  
+  // Function to close modal
+  const closeImageModal = () => {
+    setModalImage(null);
+  };
   return (
     <div className={styles.container}>
       <section className={styles.header}>
@@ -54,14 +96,54 @@ export default function Status1() {
 
         <div className={styles["gallery-container"]}>
           <section className={styles.gallery}>
-            <img src="/Dag2.png" alt="Dag 1" />
-            <img src="/Diskusjon.jpg" alt="Dag 2" />
-            <img src="/matBilde.jpg" alt="Dag 3" />
-            <img src="/2.sep.jpg" alt="Dag 4" />
-            <img src="/PCBilde.jpg" alt="Dag 5" />
-            <img src="/frank_selfie.jpg" alt="Dag 6" />
-            <img src="/gang_bilde.jpg" alt="Dag 7" />
-            <img src="/plan_bilde.jpg" alt="Dag 8" />
+            <img 
+              src="/Dag2.png" 
+              alt="Dag 1" 
+              onClick={() => openImageModal("/Dag2.png", "Dag 1", "Gruppemøte der vi diskuterte ulike prosjektmuligheter, fordelte roller og planla arbeidet vårt.")}
+              style={{ cursor: "pointer" }}
+            />
+            <img 
+              src="/Diskusjon.jpg" 
+              alt="Dag 2" 
+              onClick={() => openImageModal("/Diskusjon.jpg", "Dag 2", "Teamet diskuterer ideer og løsninger for prosjektet vårt.")}
+              style={{ cursor: "pointer" }}
+            />
+            <img 
+              src="/matBilde.jpg" 
+              alt="Dag 3" 
+              onClick={() => openImageModal("/matBilde.jpg", "Dag 3", "Uten mat og drikke, duger helten ikke! Lunsjpause i den flotte kantina :)")}
+              style={{ cursor: "pointer" }}
+            />
+            <img 
+              src="/2.sep.jpg" 
+              alt="Dag 4" 
+              onClick={() => openImageModal("/2.sep.jpg", "Dag 4", "Vi jobbet videre med prosjektideer og gjorde oss klare for en pitch til de ansatte.")}
+              style={{ cursor: "pointer" }}
+            />
+            <img 
+              src="/PCBilde.jpg" 
+              alt="Dag 5" 
+              onClick={() => openImageModal("/PCBilde.jpg", "Dag 5", "Koding og utvikling av løsninger.")}
+              style={{ cursor: "pointer" }}
+            />
+            <img 
+              src="/frank_selfie.jpg" 
+              alt="Dag 6" 
+              onClick={() => openImageModal("/frank_selfie.jpg", "Dag 6", "Frank finner alltids tiden til en liten selfie. -Frank")}
+              style={{ cursor: "pointer" }}
+            />
+            <img 
+              src="/gang_bilde.jpg" 
+              alt="Dag 7" 
+              onClick={() => openImageModal("/gang_bilde.jpg", "Dag 7", "Gangene i bygget der vi jobber.")}
+              style={{ cursor: "pointer" }}
+            />
+            <img 
+              src="/plan_bilde.jpg" 
+              alt="Dag 8" 
+              onClick={() => openImageModal("/plan_bilde.jpg", "Dag 8", "Reguleringsplan fra 19-pil og bue.")}
+              style={{ cursor: "pointer" }}
+            />
           </section>
         </div>
 
@@ -112,6 +194,15 @@ export default function Status1() {
         <h2>Kommer!</h2>
         <p>Kommer!</p>
       </section>
+      
+      {/* Image Modal */}
+      <ImageModal
+        src={modalImage || ""}
+        alt={modalAlt}
+        caption={modalCaption}
+        isOpen={modalImage !== null}
+        onClose={closeImageModal}
+      />
     </div>
   );
 }
