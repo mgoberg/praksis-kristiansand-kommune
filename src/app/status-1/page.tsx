@@ -55,11 +55,13 @@ export default function Status1() {
         <div className={styles["gallery-container"]}>
           <section className={styles.gallery}>
             <img src="/Dag2.png" alt="Dag 1" />
-            <img src="/2.sep.jpg" alt="Dag 2" />
-            <img src="/Dag2.png" alt="Dag 3" />
-            <img src="/Dag2.png" alt="Dag 4" />
-            <img src="/Dag2.png" alt="Dag 5" />
-            <img src="/Dag2.png" alt="Dag 6" />
+            <img src="/Diskusjon.jpg" alt="Dag 2" />
+            <img src="/matBilde.jpg" alt="Dag 3" />
+            <img src="/2.sep.jpg" alt="Dag 4" />
+            <img src="/PCBilde.jpg" alt="Dag 5" />
+            <img src="/frank_selfie.jpg" alt="Dag 6" />
+            <img src="/gang_bilde.jpg" alt="Dag 7" />
+            <img src="/plan_bilde.jpg" alt="Dag 8" />
           </section>
         </div>
 
