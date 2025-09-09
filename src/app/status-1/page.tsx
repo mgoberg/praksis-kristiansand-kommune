@@ -14,8 +14,8 @@ export default function Status1() {
       <section className={styles.workplace}>
         <h2>Om Kristiansand kommune</h2>
         <p>
-          Kristiansand kommune er en av Norges største kommuner med over
-          110,000 innbyggere. Kommunen har et bredt spekter av tjenester og
+          Kristiansand kommune er Norges 6. største kommune med over
+          118,000 innbyggere. Kommunen har et bredt spekter av tjenester og
           avdelinger som jobber for å sikre god livskvalitet for sine innbyggere.
         </p>
         <p>Vi jobber i en avdeling av kommunen som heter By- og stedsutvikling, her har de ansvar for reguleringsplaner, byggesaker, kart, eiendomskatt og oppmålingsforretning.</p>
