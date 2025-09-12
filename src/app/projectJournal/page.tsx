@@ -39,6 +39,11 @@ export default function Prosjektdagbok() {
       kommentar:
         "I dag jobbet vi først med Status 1-presentasjonen, hvor vi samlet og strukturerte det vi har gjort så langt i prosjektet. Etter dette hadde vi en felles lunsj med de ansatte, som ga en fin mulighet til å diskutere prosjektet mer uformelt. Resten av dagen fortsatte vi med egne oppgaver i gruppen.",
     },
+    {
+      dato: "12.09.25",
+      kommentar:
+        "Vi leverte først Status 1 oppgaven på Canvas, før vi lagde en presentasjon til et statusmøtet vi skal ha med kommunen neste uke. Vi tok oss også tid til en uformell prat om klassisk musikk, før vi hadde lunsj sammen med de ansatte. Resten av dagen jobbet vi videre med egne oppgaver, før vi tok helg etter en produktiv uke.",
+    },
 
     // Du kan legge til flere notater her
   ];
