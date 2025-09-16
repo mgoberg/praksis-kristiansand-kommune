@@ -44,6 +44,11 @@ export default function Prosjektdagbok() {
       kommentar:
         "Vi leverte først Status 1 oppgaven på Canvas, før vi lagde en presentasjon til et statusmøtet vi skal ha med kommunen neste uke. Vi tok oss også tid til en uformell prat om klassisk musikk, før vi hadde lunsj sammen med de ansatte. Resten av dagen jobbet vi videre med egne oppgaver, før vi tok helg etter en produktiv uke.",
     },
+    {
+      dato: "16.09.25",
+      kommentar:
+        "Dagen startet med at vi ferdigstilte forberedelsene til Status 1 presentasjonen vi skal holde på fredag i faget. Etter lunsj brukte vi tiden på å diskutere TiltaksAid og hvordan løsningen kan videreutvikles, før vi forberedte oss til statusmøtet med Kristiansand kommune klokken 14. På møtet presenterte vi hvordan vi har organisert oss i gruppen, arbeidsfordelingen, hvilke problemstillinger vi har valgt å fokusere på, samt hva vi har gjort så langt og planene videre. Underveis fikk vi gode tilbakemeldinger, som vi i etterkant diskuterte og planla hvordan vi kan følge opp videre.",
+    },
 
     // Du kan legge til flere notater her
   ];
