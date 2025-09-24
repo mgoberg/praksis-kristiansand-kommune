@@ -49,6 +49,11 @@ export default function Prosjektdagbok() {
       kommentar:
         "Dagen startet med at vi ferdigstilte forberedelsene til Status 1 presentasjonen vi skal holde på fredag i faget. Etter lunsj brukte vi tiden på å diskutere TiltaksAid og hvordan løsningen kan videreutvikles, før vi forberedte oss til statusmøtet med Kristiansand kommune klokken 14. På møtet presenterte vi hvordan vi har organisert oss i gruppen, arbeidsfordelingen, hvilke problemstillinger vi har valgt å fokusere på, samt hva vi har gjort så langt og planene videre. Underveis fikk vi gode tilbakemeldinger, som vi i etterkant diskuterte og planla hvordan vi kan følge opp videre.",
     },
+    {
+      dato: "23.09.25",
+      kommentar:
+        "Først hadde vi en samtale med veileder Dagfinn, der han ga innspill og presenterte nye ideer som kan brukes i det videre arbeidet. Deretter jobbet vi videre med egne oppgaver: Martin og Frank fokuserte på TiltaksAid, mens Eline og Oliver påjobbet videre med prototypen for Informasjonsportalen. Vi tok lunsj sammen med de ansatte før vi fortsatte arbeidet med oppgavene våre frem til 14:45.",
+    },
 
     // Du kan legge til flere notater her
   ];
