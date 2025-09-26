@@ -54,6 +54,11 @@ export default function Prosjektdagbok() {
       kommentar:
         "Først hadde vi en samtale med veileder Dagfinn, der han ga innspill og presenterte nye ideer som kan brukes i det videre arbeidet. Deretter jobbet vi videre med egne oppgaver: Martin og Frank fokuserte på TiltaksAid, mens Eline og Oliver påjobbet videre med prototypen for Informasjonsportalen. Vi tok lunsj sammen med de ansatte før vi fortsatte arbeidet med oppgavene våre frem til 14:45.",
     },
+    {
+      dato: "26.09.25",
+      kommentar:
+        "Eline og Oliver begynte å utvikle Informasjonsportalen, der de satte opp prosjektet og organiserte mappestrukturen, mens Frank fullførte regningen av bruksareal på TiltaksAid. Etter lunsj fortsatte vi arbeidet med oppgavene vi hadde startet på tidligere, før vi til slutt diskuterte møtet vi skal ha med Oslo kommune neste uke, der de vil presentere sin Veiviser og vi får mulighet til å stille spørsmål.",
+    },
 
     // Du kan legge til flere notater her
   ];
