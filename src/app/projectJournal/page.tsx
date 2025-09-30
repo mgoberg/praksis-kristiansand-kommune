@@ -59,6 +59,11 @@ export default function Prosjektdagbok() {
       kommentar:
         "Eline og Oliver begynte å utvikle Informasjonsportalen, der de satte opp prosjektet og organiserte mappestrukturen, mens Frank fullførte regningen av bruksareal på TiltaksAid. Etter lunsj fortsatte vi arbeidet med oppgavene vi hadde startet på tidligere, før vi til slutt diskuterte møtet vi skal ha med Oslo kommune neste uke, der de vil presentere sin Veiviser og vi får mulighet til å stille spørsmål.",
     },
+    {
+      dato: "30.09.25",
+      kommentar:
+        "Dagen startet med en kort samtale med veileder Dagfinn om det kommende møtet med Oslo kommune. Deretter jobbet vi videre med våre egne oppgaver frem til lunsj. Etter lunsj hadde vi et møte med Oslo kommune, som varte i omtrent 1 time og 30 minutter. Oslo kommune presenterte sin Veiviser, og vi fikk samtidig mulighet til å vise frem hva vi har jobbet med. Møtet inkluderte også en diskusjon om muligheten for et mulig samarbeid med Oslo kommune. Etter møtet diskuterte vi kort innholdet og delte våre refleksjoner, før vi avsluttet dagen.",
+    },
 
     // Du kan legge til flere notater her
   ];
