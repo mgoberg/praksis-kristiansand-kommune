@@ -62,7 +62,12 @@ export default function Prosjektdagbok() {
     {
       dato: "30.09.25",
       kommentar:
-        "Dagen startet med en kort samtale med veileder Dagfinn om det kommende møtet med Oslo kommune. Deretter jobbet vi videre med våre egne oppgaver frem til lunsj. Etter lunsj hadde vi et møte med Oslo kommune, som varte i omtrent 1 time og 30 minutter. Oslo kommune presenterte sin Veiviser, og vi fikk samtidig mulighet til å vise frem hva vi har jobbet med. Møtet inkluderte også en diskusjon om muligheten for et mulig samarbeid med Oslo kommune. Etter møtet diskuterte vi kort innholdet og delte våre refleksjoner, før vi avsluttet dagen.",
+        "Dagen startet med en kort samtale med veileder Dagfinn om det kommende møtet med Oslo kommune. Deretter jobbet vi videre med våre egne oppgaver frem til lunsj. Etter lunsj hadde vi et møte med Oslo kommune, som varte i omtrent 1 time og 30 minutter. Oslo kommune presenterte sin Veiviser, og vi fikk samtidig mulighet til å vise frem hva vi har jobbet med. Møtet inkluderte også en diskusjon om muligheten for et mulig samarbeid med Oslo kommune. Etter møtet diskuterte vi kort innholdet og delte våre refleksjoner, før vi avsluttet dagen.",
+    },
+    {
+      dato: "03.10.25",
+      kommentar:
+        "Dagen startet med et møte med Trondheim kommune, som varte i omtrent halvannen time. Møtet hadde mye av samme struktur som det vi tidligere hadde med Oslo kommune, der Trondheim presenterte sin tilnærming og vi fikk mulighet til å vise frem hva vi har jobbet med. Etter lunsj jobbet vi videre med våre egne oppgaver og hadde ellers en rolig dag.",
     },
 
     // Du kan legge til flere notater her
