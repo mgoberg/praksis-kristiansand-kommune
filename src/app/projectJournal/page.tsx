@@ -69,6 +69,11 @@ export default function Prosjektdagbok() {
       kommentar:
         "Dagen startet med et møte med Trondheim kommune, som varte i omtrent halvannen time. Møtet hadde mye av samme struktur som det vi tidligere hadde med Oslo kommune, der Trondheim presenterte sin tilnærming og vi fikk mulighet til å vise frem hva vi har jobbet med. Etter lunsj jobbet vi videre med våre egne oppgaver og hadde ellers en rolig dag.",
     },
+    {
+      dato: "07.10.25",
+      kommentar:
+        "Vi begynte dagen med å jobbe videre der vi slapp forrige uke. Etter hvert kom Mari innom og vi fikk vist henne tanken bak informasjonsportalen. Hun likte ideen og ga oss konkret tilbakemelding som vi skal ta med videre i arbeidet. Etter lunsj fortsatte vi å jobbe med egne oppgaver.",
+    },
 
     // Du kan legge til flere notater her
   ];
