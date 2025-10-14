@@ -79,6 +79,11 @@ export default function Prosjektdagbok() {
       kommentar:
         "Dagen startet med at Oliver og Eline jobbet videre med informasjonsportalen, mens Martin fortsatte arbeidet med TiltaksAid. Under lunsjen hadde vi en hyggelig prat med en av veilederne våre, der vi fikk nyttige tips om arbeidslivet og høre mer om deres erfaringer. Etter lunsj kom Frank innom, og vi fortsatte å jobbe videre med våre oppgaver. Før vi avsluttet dagen, ble vi overrasket med marsipankake fra de ansatte, en hyggelig avslutning på uka.",
     },
+    {
+      dato: "14.10.25",
+      kommentar:
+        "Dagfinn kom innom for å forklare en ny oppgave vi kan se på, som kan fungere som et forarbeid til en av bacheloroppgavene. Vi diskuterte oppgaven og vurderte om vi kommer til å ha tid til å jobbe med den i løpet av praksisperioden. Etter lunsj fortsatte vi med egne oppgaver, samtidig som vi begynte å tenke litt på hvordan vi eventuelt kunne gripe an den nye oppgaven dersom vi får tid.",
+    },
 
     // Du kan legge til flere notater her
   ];
