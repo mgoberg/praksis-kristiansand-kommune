@@ -162,8 +162,10 @@
 .nextSteps {
   background-color: #f0f7ff;
   padding: 1.5rem;
+  padding-bottom: 3rem;
   border-radius: 8px;
   margin-top: 2rem;
+  margin-bottom: 4rem; 
 }
 
 .nextSteps h2 {
