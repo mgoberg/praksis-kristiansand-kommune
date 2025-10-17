@@ -84,6 +84,16 @@ export default function Status2() {
           </ul>
         </div>
 
+        <div className={styles.videoSection}>
+          <div className={styles.videoWrapper}>
+            <iframe
+              src="https://drive.google.com/file/d/1so7ebD1SbSccnl83JnOA1RPaKElC5tM7/preview"
+              allow="autoplay"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+
         <div className={styles.learnings}>
           <h2>Læring og innsikt</h2>
           <p>
