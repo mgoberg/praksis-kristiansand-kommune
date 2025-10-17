@@ -54,13 +54,13 @@ export default function Navbar() {
               Status 1
             </Link>
           </li>
-          {/* Commented out Status 2 link
+          {
           <li className={styles.navItem}>
             <Link href="/status-2" className={styles.navLink}>
               Status 2
             </Link>
           </li>
-          */}
+          }
         </ul>
       </div>
     </nav>

@@ -126,24 +126,6 @@ export default function Home() {
             </a>
           </div>
         </section>
-
-        <section className={styles.goals}>
-          <h2>Mål og Ambisjoner</h2>
-          <div className={styles.goalsList}>
-            <div className={styles.goalItem}>
-              <h3>Læringsmål</h3>
-              <p>Kommer</p>
-            </div>
-            <div className={styles.goalItem}>
-              <h3>Prosjektmål</h3>
-              <p>Kommer</p>
-            </div>
-            <div className={styles.goalItem}>
-              <h3>Innovasjon</h3>
-              <p>Kommer</p>
-            </div>
-          </div>
-        </section>
       </main>
     </div>
   );

@@ -17,7 +17,7 @@ const ImageModal = ({ src, alt, caption, isOpen, onClose }: ImageModalProps) => 
   if (!isOpen) return null;
   
   return (
-    <Modal isOpen={isOpen} onClose={onClose}>
+    <Modal isOpen={isOpen} onClose={onClose} className={styles.wideModal}>
       <div className={styles.imageModalContent}>
         <img src={src} alt={alt} className={styles.enlargedImage} />
         {caption && <div className={styles.imageCaption}>{caption}</div>}
@@ -188,11 +188,6 @@ export default function Status1() {
             </li>
           </div>
         </div>
-      </section>
-
-      <section className={styles.conclusion}>
-        <h2>Kommer!</h2>
-        <p>Kommer!</p>
       </section>
       
       {/* Image Modal */}

@@ -73,6 +73,7 @@ const TeamMember = ({
             )}
             <h2 className={modalStyles.profileName}>{name}</h2>
             {role && <p className={styles.profileRole2}>{role}</p>}
+            {bio && <p className={modalStyles.profileBio}>{bio}</p>}
           </div>
 
           

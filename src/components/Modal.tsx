@@ -7,9 +7,10 @@ interface ModalProps {
   isOpen: boolean;
   onClose: () => void;
   children: ReactNode;
+  className?: string;
 }
 
-const Modal = ({ isOpen, onClose, children }: ModalProps) => {
+const Modal = ({ isOpen, onClose, children, className }: ModalProps) => {
   const modalRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -56,7 +57,7 @@ const Modal = ({ isOpen, onClose, children }: ModalProps) => {
 
   return (
     <div className={styles.modalOverlay}>
-      <div ref={modalRef} className={styles.modal}>
+      <div ref={modalRef} className={`${styles.modal} ${className || ''}`}>
         <button className={styles.closeButton} onClick={onClose}>
           &times;
         </button>
