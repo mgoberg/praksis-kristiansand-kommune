@@ -84,6 +84,16 @@ export default function Prosjektdagbok() {
       kommentar:
         "Dagfinn kom innom for å forklare en ny oppgave vi kan se på, som kan fungere som et forarbeid til en av bacheloroppgavene. Vi diskuterte oppgaven og vurderte om vi kommer til å ha tid til å jobbe med den i løpet av praksisperioden. Etter lunsj fortsatte vi med egne oppgaver, samtidig som vi begynte å tenke litt på hvordan vi eventuelt kunne gripe an den nye oppgaven dersom vi får tid.",
     },
+    {
+      dato: "17.10.25",
+      kommentar:
+        "Vi startet dagen med å lage status 2-side på praksisnettsiden vår, der vi oppsummerte hva vi har gjort så langt i perioden. Resten av dagen fortsatte vi med våre egne oppgaver.",
+    },
+    {
+      dato: "21.10.25",
+      kommentar:
+        "Dagen gikk i hovedsak til videre arbeid med informasjonsportalen og TiltaksAid. Vi prøvde også å integrere TiltaksAid inn i portalen. Under lunsjen hadde vi en lang og interessant samtale med Dagfinn om både praksisprosjektet og andre spennende temaer. Etter lunsj fortsatte vi med våre egne oppgaver.",
+    },
 
     // Du kan legge til flere notater her
   ];
