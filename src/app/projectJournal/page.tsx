@@ -94,6 +94,11 @@ export default function Prosjektdagbok() {
       kommentar:
         "Dagen gikk i hovedsak til videre arbeid med informasjonsportalen og TiltaksAid. Vi prøvde også å integrere TiltaksAid inn i portalen. Under lunsjen hadde vi en lang og interessant samtale med Dagfinn om både praksisprosjektet og andre spennende temaer. Etter lunsj fortsatte vi med våre egne oppgaver.",
     },
+    {
+      dato: "24.10.25",
+      kommentar:
+        "Dagen ble brukt til videre arbeid med egne oppgaver. Vi avtalte også et møte med Mari neste uke for å planlegge en workshop knyttet til informasjonsportalen.",
+    },
 
     // Du kan legge til flere notater her
   ];
