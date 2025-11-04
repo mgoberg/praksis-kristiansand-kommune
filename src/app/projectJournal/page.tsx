@@ -99,6 +99,16 @@ export default function Prosjektdagbok() {
       kommentar:
         "Dagen ble brukt til videre arbeid med egne oppgaver. Vi avtalte også et møte med Mari neste uke for å planlegge en workshop knyttet til informasjonsportalen.",
     },
+    {
+      dato: "28.10.25",
+      kommentar:
+        "Dagen startet med at vi lagde presentasjonen til status 2, der vi oppsummerte arbeidet så langt i praksisperioden. Senere hadde Eline og Oliver et møte med saksbehandlerne Mari og Renate for å diskutere informasjonsportalen. De fikk nyttige innspill og konkrete forslag til videre utvikling. Resten av dagen ble brukt til å jobbe videre med egne oppgaver.",
+    },
+    {
+      dato: "04.11.25",
+      kommentar:
+        "Dagen startet med arbeid på egne oppgaver før vi tok lunsj sammen med de ansatte. Etter lunsj hadde vi et statusmøte med kommunen, der vi fikk vist frem hva vi har jobbet med så langt i praksisperioden. Vi fikk gode tilbakemeldinger på arbeidet, og samtalen dreide også inn på mulige bacheloroppgaver vi kan skrive i samarbeid med dem.",
+    },
 
     // Du kan legge til flere notater her
   ];
