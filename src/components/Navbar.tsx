@@ -38,7 +38,6 @@ export default function Navbar() {
         </div>
 
         <ul className={`${styles.navmenu} ${isMenuOpen ? styles.active : ""}`}>
-
           <li className={styles.navItem}>
             <Link href="/." className={styles.navLink}>
               Hjem
@@ -54,13 +53,16 @@ export default function Navbar() {
               Status 1
             </Link>
           </li>
-          {
           <li className={styles.navItem}>
             <Link href="/status-2" className={styles.navLink}>
               Status 2
             </Link>
           </li>
-          }
+          <li className={styles.navItem}>
+            <Link href="/reflection" className={styles.navLink}>
+              Avsluttende refleksjon
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
