@@ -110,7 +110,11 @@ export default function Prosjektdagbok() {
         "Dagen startet med arbeid på egne oppgaver før vi tok lunsj sammen med de ansatte. Etter lunsj hadde vi et statusmøte med kommunen, der vi fikk vist frem hva vi har jobbet med så langt i praksisperioden. Vi fikk gode tilbakemeldinger på arbeidet, og samtalen dreide også inn på mulige bacheloroppgaver vi kan skrive i samarbeid med dem.",
     },
 
-    // Du kan legge til flere notater her
+    {
+      dato: "07.11.25",
+      kommentar:
+        "Vi begynte dagen med å skrive den avsluttende refleksjonen til nettsiden og leverte oppgaven i Canvas. Deretter planla vi hvordan filmingen til Expo-filmen skal gjennomføres på tirsdag. Etter lunsj fortsatte vi med egne oppgaver resten av dagen.",
+    },
   ];
 
   // Helper to group notes by month
