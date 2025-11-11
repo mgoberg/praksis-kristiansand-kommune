@@ -115,6 +115,11 @@ export default function Prosjektdagbok() {
       kommentar:
         "Vi begynte dagen med å skrive den avsluttende refleksjonen til nettsiden og leverte oppgaven i Canvas. Deretter planla vi hvordan filmingen til Expo-filmen skal gjennomføres på tirsdag. Etter lunsj fortsatte vi med egne oppgaver resten av dagen.",
     },
+    {
+      dato: "01.11.25",
+      kommentar:
+        "Dagen startet med filming av Expo-filmen, der vi fikk med et lite innslag fra Dagfinn. Etter lunsj jobbet vi videre med egne oppgaver, blant annet “Forarbeid før du søker”-siden på informasjonsportalen, mens Frank redigerte filmen.",
+    },
   ];
 
   // Helper to group notes by month
