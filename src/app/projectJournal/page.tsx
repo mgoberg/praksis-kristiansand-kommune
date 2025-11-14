@@ -116,9 +116,18 @@ export default function Prosjektdagbok() {
         "Vi begynte dagen med å skrive den avsluttende refleksjonen til nettsiden og leverte oppgaven i Canvas. Deretter planla vi hvordan filmingen til Expo-filmen skal gjennomføres på tirsdag. Etter lunsj fortsatte vi med egne oppgaver resten av dagen.",
     },
     {
-      dato: "01.11.25",
+      dato: "11.11.25",
       kommentar:
         "Dagen startet med filming av Expo-filmen, der vi fikk med et lite innslag fra Dagfinn. Etter lunsj jobbet vi videre med egne oppgaver, blant annet “Forarbeid før du søker”-siden på informasjonsportalen, mens Frank redigerte filmen.",
+    },
+    {
+      dato: "14.11.25",
+      kommentar:
+        "Første del av dagen gikk til å ferdigstille både informasjonsportalen og TiltaksAid, slik at løsningene var klare til avslutning av praksisperioden. Etter dette hadde vi pizzalunsj med de ansatte. Senere skrev vi ferdig registrer-praksis-dokumentet. Dagen ble avsluttet med fredagskos sammen med de ansatte, hvor Dagfinn hadde bakt surdeigsboller.",
+    },
+    {
+      dato: "18.11.25",
+      kommentar: "Kommer",
     },
   ];
 
