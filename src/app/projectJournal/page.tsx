@@ -127,7 +127,8 @@ export default function Prosjektdagbok() {
     },
     {
       dato: "18.11.25",
-      kommentar: "Kommer",
+      kommentar:
+        "I dag var siste dag i praksis. Vi startet med å ferdigstille de siste detaljene i prosjektene våre og sikre at alt arbeid var klart til avslutning. Vi lagde også presentasjonen som skal holdes på fredagens avsluttende møte med klassen. Midt på dagen hadde vi en ekstra lang og koselig lunsj sammen med de ansatte. Etter lunsj avsluttet vi praksisperioden med brownie og is, sammen med de gode veilederne som har fulgt oss hele veien, samt flere andre ansatte. Det ble en veldig hyggelig og minneverdig siste dag.",
     },
   ];
 
